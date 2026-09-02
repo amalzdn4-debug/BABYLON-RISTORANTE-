@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr" data-active-lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu · Babylon Milano | Middle Eastern Menu</title>
+<meta name="description" content="Il menu di Babylon: cucina libanese, siriana, irachena e iraniana, 100% halal.">
+<link rel="icon" href="images/logo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav" id="siteNav">
+  <a href="index.html" class="nav-mark">
+    <img class="logo-light" src="images/logo-mark-light.png" alt="Ristorante Babylon">
+    <img class="logo-dark" src="images/logo-mark.png" alt="Ristorante Babylon">
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html#story" data-lang="it">La Storia</a><a href="index.html#story" data-lang="en">Our Story</a><a href="index.html#story" data-lang="ar">قصتنا</a></li>
+    <li><a href="index.html#chef" data-lang="it">Lo Chef</a><a href="index.html#chef" data-lang="en">The Chef</a><a href="index.html#chef" data-lang="ar">الشيف</a></li>
+    <li><a href="menu.html" data-lang="it">Menu</a><a href="menu.html" data-lang="en">Menu</a><a href="menu.html" data-lang="ar">القائمة</a></li>
+    <li><a href="index.html#location" data-lang="it">Dove Siamo</a><a href="index.html#location" data-lang="en">Location</a><a href="index.html#location" data-lang="ar">موقعنا</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-toggle" id="langToggle">
+      <span data-lang-btn="it" class="active">IT</span><span data-lang-btn="en">EN</span><span data-lang-btn="ar">AR</span>
+    </div>
+    <a href="tel:+393932482141" class="nav-cta" data-lang="it">Prenota</a>
+    <a href="tel:+393932482141" class="nav-cta" data-lang="en">Reserve</a>
+    <a href="tel:+393932482141" class="nav-cta" data-lang="ar">احجز</a>
+    <button class="nav-burger" id="burgerBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close">&times;</button>
+  <a href="index.html#story" data-lang="it">La Storia</a><a href="index.html#story" data-lang="en">Our Story</a><a href="index.html#story" data-lang="ar">قصتنا</a>
+  <a href="index.html#chef" data-lang="it">Lo Chef</a><a href="index.html#chef" data-lang="en">The Chef</a><a href="index.html#chef" data-lang="ar">الشيف</a>
+  <a href="menu.html" data-lang="it">Menu</a><a href="menu.html" data-lang="en">Menu</a><a href="menu.html" data-lang="ar">القائمة</a>
+  <a href="index.html#location" data-lang="it">Dove Siamo</a><a href="index.html#location" data-lang="en">Location</a><a href="index.html#location" data-lang="ar">موقعنا</a>
+  <a href="tel:+393932482141" data-lang="it">Prenota · 393 248 2141</a>
+  <a href="tel:+393932482141" data-lang="en">Reserve · 393 248 2141</a>
+  <a href="tel:+393932482141" data-lang="ar">احجز · 393 248 2141</a>
+</div>
+
+<header class="menu-hero">
+  <div class="wrap">
+    <span class="eyebrow" data-lang="it">Il Menu</span>
+    <span class="eyebrow" data-lang="en">The Menu</span>
+    <span class="eyebrow" data-lang="ar">القائمة</span>
+    <h1 class="display-lg" data-lang="it">Un viaggio, piatto dopo piatto</h1>
+    <h1 class="display-lg" data-lang="en">A journey, dish by dish</h1>
+    <h1 class="display-lg" data-lang="ar">رحلة، طبقًا بعد طبق</h1>
+    <p data-lang="it">Cucina libanese, siriana, irachena e iraniana. Tutte le carni sono 100% halal.</p>
+    <p data-lang="en">Lebanese, Syrian, Iraqi and Iranian cuisine. All meat is 100% halal.</p>
+    <p data-lang="ar">مطبخ لبناني وسوري وعراقي وإيراني. جميع اللحوم حلال ١٠٠٪.</p>
+  </div>
+</header>
+
+<nav class="menu-jump">
+  <a href="#percorsi" data-lang="it">Percorsi</a><a href="#percorsi" data-lang="en">Tasting Routes</a><a href="#percorsi" data-lang="ar">المسارات</a>
+  <a href="#antipasti-1" data-lang="it">Creme &amp; Insalate</a><a href="#antipasti-1" data-lang="en">Dips &amp; Salads</a><a href="#antipasti-1" data-lang="ar">مقبلات وسلطات</a>
+  <a href="#antipasti-2" data-lang="it">Fritti &amp; Forno</a><a href="#antipasti-2" data-lang="en">Fried &amp; Baked</a><a href="#antipasti-2" data-lang="ar">مقلية ومخبوزة</a>
+  <a href="#contorni" data-lang="it">Contorni</a><a href="#contorni" data-lang="en">Sides</a><a href="#contorni" data-lang="ar">أطباق جانبية</a>
+  <a href="#principali" data-lang="it">Piatti Principali</a><a href="#principali" data-lang="en">Main Courses</a><a href="#principali" data-lang="ar">الأطباق الرئيسية</a>
+  <a href="#dolci" data-lang="it">Dolci</a><a href="#dolci" data-lang="en">Desserts</a><a href="#dolci" data-lang="ar">حلويات</a>
+  <a href="#bibite" data-lang="it">Bibite</a><a href="#bibite" data-lang="en">Drinks</a><a href="#bibite" data-lang="ar">مشروبات</a>
+</nav>
+
+<main class="menu-body">
+  <div class="wrap">
+
+    <!-- LEGEND -->
+    <div class="menu-legend">
+      <span class="legend-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+        <span data-lang="it">Vegetariano</span><span data-lang="en">Vegetarian</span><span data-lang="ar">نباتي</span>
+      </span>
+      <span class="legend-item">
+        <svg viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+        <span data-lang="it">Vegano</span><span data-lang="en">Vegan</span><span data-lang="ar">نباتي صرف</span>
+      </span>
+    </div>
+    <p class="legend-note" data-lang="it">Segnaliamo i piatti vegetariani e vegani in base agli ingredienti di ricetta. Per allergie o intolleranze specifiche, chiedete pure in sala.</p>
+    <p class="legend-note" data-lang="en">Vegetarian and vegan dishes are flagged based on recipe ingredients. For specific allergies or intolerances, just ask our staff.</p>
+    <p class="legend-note" data-lang="ar">نشير إلى الأطباق النباتية والنباتية الصرفة بناءً على مكونات الوصفة. للحساسية أو عدم التحمل الغذائي، يُرجى سؤال طاقم الصالة.</p>
+
+    <!-- MEZZE ROUTES -->
+    <section class="mezze-routes" id="percorsi">
+      <div class="mezze-routes-head">
+        <span class="eyebrow">01 · 03</span>
+        <h2 class="display-md" data-lang="it">Non sai da dove iniziare?</h2>
+        <h2 class="display-md" data-lang="en">Not sure where to start?</h2>
+        <h2 class="display-md" data-lang="ar">لا تعرف من أين تبدأ؟</h2>
+        <p data-lang="it">Tre percorsi mezze, pensati per condividere e assaggiare più cucine insieme. Ogni piatto è ordinabile anche singolarmente qui sotto.</p>
+        <p data-lang="en">Three mezze routes, built for sharing and tasting several cuisines at once. Every dish can also be ordered individually below.</p>
+        <p data-lang="ar">ثلاثة مسارات مزة، مُصممة للمشاركة وتذوق عدة مطابخ معًا. يمكن أيضًا طلب كل طبق بشكل منفرد أدناه.</p>
+      </div>
+      <div class="mezze-grid">
+        <div class="mezze-card">
+          <span class="mezze-sub" data-lang="it">Il Classico</span>
+          <span class="mezze-sub" data-lang="en">The Classic</span>
+          <span class="mezze-sub" data-lang="ar">الكلاسيكي</span>
+          <h3 data-lang="it">Percorso Libano</h3>
+          <h3 data-lang="en">Lebanon Route</h3>
+          <h3 data-lang="ar">مسار لبنان</h3>
+          <ul data-lang="it" class="block">
+            <li>Hummus</li><li>Tabbuleh</li><li>Fattush</li><li>Warak Enab</li><li>Shish Tawuk</li>
+          </ul>
+          <ul data-lang="en" class="block">
+            <li>Hummus</li><li>Tabbuleh</li><li>Fattush</li><li>Warak Enab</li><li>Shish Tawuk</li>
+          </ul>
+          <ul data-lang="ar" class="block">
+            <li>حمص</li><li>تبولة</li><li>فتوش</li><li>ورق عنب</li><li>شيش طاووق</li>
+          </ul>
+        </div>
+        <div class="mezze-card">
+          <span class="mezze-sub" data-lang="it">Il Viaggio Completo</span>
+          <span class="mezze-sub" data-lang="en">The Full Journey</span>
+          <span class="mezze-sub" data-lang="ar">الرحلة الكاملة</span>
+          <h3 data-lang="it">Percorso Babylon</h3>
+          <h3 data-lang="en">Babylon Route</h3>
+          <h3 data-lang="ar">مسار بابل</h3>
+          <ul data-lang="it" class="block">
+            <li>Muhammara</li><li>Mutabbal</li><li>Kibbeh Grigliata</li><li>Saj Shawerma</li><li>Baklawa</li>
+          </ul>
+          <ul data-lang="en" class="block">
+            <li>Muhammara</li><li>Mutabbal</li><li>Grilled Kibbeh</li><li>Saj Shawerma</li><li>Baklawa</li>
+          </ul>
+          <ul data-lang="ar" class="block">
+            <li>محمرة</li><li>متبل</li><li>كبة مشوية</li><li>شاورما على الصاج</li><li>بقلاوة</li>
+          </ul>
+        </div>
+        <div class="mezze-card">
+          <span class="mezze-sub" data-lang="it">Senza Carne</span>
+          <span class="mezze-sub" data-lang="en">Meat-Free</span>
+          <span class="mezze-sub" data-lang="ar">بدون لحم</span>
+          <h3 data-lang="it">Percorso Vegetariano</h3>
+          <h3 data-lang="en">Vegetarian Route</h3>
+          <h3 data-lang="ar">المسار النباتي</h3>
+          <ul data-lang="it" class="block">
+            <li>Hummus</li><li>Babaghanoush</li><li>Fattush</li><li>Falafel</li><li>Basbusah</li>
+          </ul>
+          <ul data-lang="en" class="block">
+            <li>Hummus</li><li>Babaghanoush</li><li>Fattush</li><li>Falafel</li><li>Basbusah</li>
+          </ul>
+          <ul data-lang="ar" class="block">
+            <li>حمص</li><li>بابا غنوج</li><li>فتوش</li><li>فلافل</li><li>بسبوسة</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANTIPASTI - CREME E INSALATE -->
+    <section class="menu-category" id="antipasti-1">
+      <div class="menu-category-head">
+        <span class="eyebrow">01</span>
+        <h2 data-lang="it">Creme &amp; Insalate</h2><h2 data-lang="en">Dips &amp; Salads</h2><h2 data-lang="ar">مقبلات وسلطات</h2>
+      </div>
+      <div class="dish-list">
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Hummus</span><span class="dish-name" data-lang="en">Hummus</span><span class="dish-name" data-lang="ar">حمص</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Crema di ceci con tahina, limone e olio d'oliva.</p>
+          <p class="dish-desc" data-lang="en">Chickpea cream with tahini, lemon and olive oil.</p>
+          <p class="dish-desc" data-lang="ar">معجون حمص بالطحينة والليمون وزيت الزيتون.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: sesamo</p><p class="dish-allergen" data-lang="en">Allergens: sesame</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: سمسم</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Hummus di carne</span><span class="dish-name" data-lang="en">Hummus with Meat</span><span class="dish-name" data-lang="ar">حمص باللحمة</span></span>
+            <span class="dish-price">8€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Crema di ceci con tahina e carne.</p>
+          <p class="dish-desc" data-lang="en">Chickpea cream with tahini and meat.</p>
+          <p class="dish-desc" data-lang="ar">معجون حمص بالطحينة واللحم.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: sesamo</p><p class="dish-allergen" data-lang="en">Allergens: sesame</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: سمسم</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Mutabbal</span><span class="dish-name" data-lang="en">Mutabbal</span><span class="dish-name" data-lang="ar">متبل</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Crema di melanzane con tahina e limone.</p>
+          <p class="dish-desc" data-lang="en">Eggplant cream with tahini and lemon.</p>
+          <p class="dish-desc" data-lang="ar">معجون باذنجان بالطحينة والليمون.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: sesamo</p><p class="dish-allergen" data-lang="en">Allergens: sesame</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: سمسم</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Muhammara</span><span class="dish-name" data-lang="en">Muhammara</span><span class="dish-name" data-lang="ar">محمرة</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Crema di peperoni, pistacchio, melassa di melograno e pan grattato, leggermente piccante.</p>
+          <p class="dish-desc" data-lang="en">Pepper cream with pistachio, pomegranate molasses and breadcrumbs, mildly spicy.</p>
+          <p class="dish-desc" data-lang="ar">معجون فلفل بالفستق ودبس الرمان وفتات الخبز، حار قليلاً.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: frutta a guscio, glutine</p><p class="dish-allergen" data-lang="en">Allergens: tree nuts, gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: مكسرات، غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Fattush</span><span class="dish-name" data-lang="en">Fattush</span><span class="dish-name" data-lang="ar">فتوش</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">7€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Insalata mista con pane arabo tostato, sommacco e melassa di melograno.</p>
+          <p class="dish-desc" data-lang="en">Mixed salad with toasted flatbread, sumac and pomegranate molasses.</p>
+          <p class="dish-desc" data-lang="ar">سلطة مشكلة بخبز عربي محمص وسماق ودبس الرمان.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Tabbuleh</span><span class="dish-name" data-lang="en">Tabbuleh</span><span class="dish-name" data-lang="ar">تبولة</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">6€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Prezzemolo fresco, bulgur, menta, pomodoro, limone e melograno.</p>
+          <p class="dish-desc" data-lang="en">Fresh parsley, bulgur, mint, tomato, lemon and pomegranate.</p>
+          <p class="dish-desc" data-lang="ar">بقدونس طازج، برغل، نعناع، طماطم، ليمون ورمان.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Insalata</span><span class="dish-name" data-lang="en">Fresh Salad</span><span class="dish-name" data-lang="ar">سلطة طازجة</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">4€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Insalata fresca mista.</p>
+          <p class="dish-desc" data-lang="en">Fresh mixed salad.</p>
+          <p class="dish-desc" data-lang="ar">سلطة طازجة مشكلة.</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Babaghanoush</span><span class="dish-name" data-lang="en">Babaghanoush</span><span class="dish-name" data-lang="ar">بابا غنوج</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Polpa di melanzane, melassa di melograno e peperoni.</p>
+          <p class="dish-desc" data-lang="en">Eggplant pulp with pomegranate molasses and peppers.</p>
+          <p class="dish-desc" data-lang="ar">لب الباذنجان مع دبس الرمان والفلفل.</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Mirza Ghassemi</span><span class="dish-name" data-lang="en">Mirza Ghassemi</span><span class="dish-name" data-lang="ar">ميرزا قاسمي</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">7€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Melanzane con pomodoro, aglio e uovo, piatto persiano.</p>
+          <p class="dish-desc" data-lang="en">Eggplant with tomato, garlic and egg, a Persian dish.</p>
+          <p class="dish-desc" data-lang="ar">باذنجان بالطماطم والثوم والبيض، طبق فارسي.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: uova</p><p class="dish-allergen" data-lang="en">Allergens: egg</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: بيض</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ANTIPASTI FRITTI E FORNO -->
+    <section class="menu-category" id="antipasti-2">
+      <div class="menu-category-head">
+        <span class="eyebrow">02</span>
+        <h2 data-lang="it">Fritti &amp; Forno</h2><h2 data-lang="en">Fried &amp; Baked</h2><h2 data-lang="ar">مقلية ومخبوزة</h2>
+      </div>
+      <div class="dish-list">
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Warak Enab, foglie di vite (6 pz)</span><span class="dish-name" data-lang="en">Warak Enab, Vine Leaves (6 pcs)</span><span class="dish-name" data-lang="ar">ورق عنب (6 قطع)</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">7€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Involtini di foglia di vite ripieni di riso, pomodoro, prezzemolo e melassa di melograno.</p>
+          <p class="dish-desc" data-lang="en">Vine leaf rolls filled with rice, tomato, parsley and pomegranate molasses.</p>
+          <p class="dish-desc" data-lang="ar">ورق عنب محشو بالأرز والطماطم والبقدونس ودبس الرمان.</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Halloumi (4 pz)</span><span class="dish-name" data-lang="en">Halloumi (4 pcs)</span><span class="dish-name" data-lang="ar">حلوم (4 قطع)</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">8€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Formaggio (di mucca) halloumi grigliato.</p>
+          <p class="dish-desc" data-lang="en">Grilled halloumi cheese (cow's milk).</p>
+          <p class="dish-desc" data-lang="ar">جبنة حلوم (بقري) مشوية.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: latte</p><p class="dish-allergen" data-lang="en">Allergens: dairy</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: حليب</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Insalata di Halloumi</span><span class="dish-name" data-lang="en">Halloumi Salad</span><span class="dish-name" data-lang="ar">سلطة الحلوم</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">8€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Insalata fresca con halloumi grigliato.</p>
+          <p class="dish-desc" data-lang="en">Fresh salad with grilled halloumi.</p>
+          <p class="dish-desc" data-lang="ar">سلطة طازجة مع حلوم مشوي.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: latte</p><p class="dish-allergen" data-lang="en">Allergens: dairy</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: حليب</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Falafel (4 pz)</span><span class="dish-name" data-lang="en">Falafel (4 pcs)</span><span class="dish-name" data-lang="ar">فلافل (4 قطع)</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Polpette di ceci, prezzemolo e spezie.</p>
+          <p class="dish-desc" data-lang="en">Chickpea patties with parsley and spices.</p>
+          <p class="dish-desc" data-lang="ar">كرات حمص بالبقدونس والتوابل.</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Roll di Formaggio (4 pz)</span><span class="dish-name" data-lang="en">Cheese Roll (4 pcs)</span><span class="dish-name" data-lang="ar">لفائف جبنة (4 قطع)</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">6€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Involtini ripieni di formaggio.</p>
+          <p class="dish-desc" data-lang="en">Rolls filled with cheese.</p>
+          <p class="dish-desc" data-lang="ar">لفائف محشوة بالجبنة.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: latte, glutine</p><p class="dish-allergen" data-lang="en">Allergens: dairy, gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: حليب، غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Roll di Verdure (4 pz)</span><span class="dish-name" data-lang="en">Vegetable Roll (4 pcs)</span><span class="dish-name" data-lang="ar">لفائف خضار (4 قطع)</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Involtini ripieni di verdure.</p>
+          <p class="dish-desc" data-lang="en">Rolls filled with vegetables.</p>
+          <p class="dish-desc" data-lang="ar">لفائف محشوة بالخضار.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Roll di Carne (4 pz)</span><span class="dish-name" data-lang="en">Meat Roll (4 pcs)</span><span class="dish-name" data-lang="ar">لفائف لحم (4 قطع)</span></span>
+            <span class="dish-price">7€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Involtini ripieni di carne e cipolla.</p>
+          <p class="dish-desc" data-lang="en">Rolls filled with meat and onion.</p>
+          <p class="dish-desc" data-lang="ar">لفائف محشوة باللحم والبصل.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Sfiha (4 pz)</span><span class="dish-name" data-lang="en">Sfiha (4 pcs)</span><span class="dish-name" data-lang="ar">سفيحة (4 قطع)</span></span>
+            <span class="dish-price">6€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Pizzette con carne macinata e pomodoro.</p>
+          <p class="dish-desc" data-lang="en">Mini savory pies with minced meat and tomato.</p>
+          <p class="dish-desc" data-lang="ar">فطائر صغيرة باللحم المفروم والطماطم.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Fataier di Spinaci (4 pz)</span><span class="dish-name" data-lang="en">Spinach Fataier (4 pcs)</span><span class="dish-name" data-lang="ar">فطاير سبانخ (4 قطع)</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Fagottini di spinaci, cipolla e sommacco.</p>
+          <p class="dish-desc" data-lang="en">Pastry parcels with spinach, onion and sumac.</p>
+          <p class="dish-desc" data-lang="ar">فطاير محشوة بالسبانخ والبصل والسماق.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine, frutta a guscio</p><p class="dish-allergen" data-lang="en">Allergens: gluten, tree nuts</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين، مكسرات</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Fataier di Carne (4 pz)</span><span class="dish-name" data-lang="en">Meat Fataier (4 pcs)</span><span class="dish-name" data-lang="ar">فطاير لحم (4 قطع)</span></span>
+            <span class="dish-price">7€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Fagottini ripieni di carne, cipolla, pomodoro e melassa di melograno.</p>
+          <p class="dish-desc" data-lang="en">Pastry parcels with meat, onion, tomato and pomegranate molasses.</p>
+          <p class="dish-desc" data-lang="ar">فطاير محشوة باللحم والبصل والطماطم ودبس الرمان.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Kibbeh Fritta (3 pz)</span><span class="dish-name" data-lang="en">Fried Kibbeh (3 pcs)</span><span class="dish-name" data-lang="ar">كبة مقلية (3 قطع)</span></span>
+            <span class="dish-price">6€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Crocchette ripiene di carne, bulgur e pinoli.</p>
+          <p class="dish-desc" data-lang="en">Croquettes filled with meat, bulgur and pine nuts.</p>
+          <p class="dish-desc" data-lang="ar">كبة محشوة باللحم والبرغل والصنوبر.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Kibbeh Grigliata (2 pz)</span><span class="dish-name" data-lang="en">Grilled Kibbeh (2 pcs)</span><span class="dish-name" data-lang="ar">كبة مشوية (2 قطعة)</span></span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Crocchette di bulgur con carne.</p>
+          <p class="dish-desc" data-lang="en">Bulgur croquettes with meat.</p>
+          <p class="dish-desc" data-lang="ar">كبة برغل باللحم.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Kibbeh Veggie (5 pz)</span><span class="dish-name" data-lang="en">Veggie Kibbeh (5 pcs)</span><span class="dish-name" data-lang="ar">كبة نباتية (5 قطع)</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">6€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Crocchette con bulgur, melassa di peperoni e cipolla.</p>
+          <p class="dish-desc" data-lang="en">Bulgur croquettes with pepper molasses and onion.</p>
+          <p class="dish-desc" data-lang="ar">كبة برغل بدبس الفلفل والبصل.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTORNI -->
+    <section class="menu-category" id="contorni">
+      <div class="menu-category-head">
+        <span class="eyebrow">03</span>
+        <h2 data-lang="it">Contorni</h2><h2 data-lang="en">Sides</h2><h2 data-lang="ar">أطباق جانبية</h2>
+      </div>
+      <div class="dish-list">
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Patatine Fritte</span><span class="dish-name" data-lang="en">French Fries</span><span class="dish-name" data-lang="ar">بطاطا مقلية</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">4€</span>
+          </div>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Verdure di Stagione</span><span class="dish-name" data-lang="en">Seasonal Vegetables</span><span class="dish-name" data-lang="ar">خضار موسمية</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Verdure grigliate o saltate.</p>
+          <p class="dish-desc" data-lang="en">Grilled or sautéed vegetables.</p>
+          <p class="dish-desc" data-lang="ar">خضار مشوية أو مقلية سوتيه.</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Zuppa di Lenticchie</span><span class="dish-name" data-lang="en">Lentil Soup</span><span class="dish-name" data-lang="ar">شوربة عدس</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">4€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Zuppa di lenticchie con limone e spezie.</p>
+          <p class="dish-desc" data-lang="en">Lentil soup with lemon and spices.</p>
+          <p class="dish-desc" data-lang="ar">شوربة عدس بالليمون والتوابل.</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Falafel Ripieni (3 pz)</span><span class="dish-name" data-lang="en">Stuffed Falafel (3 pcs)</span><span class="dish-name" data-lang="ar">فلافل محشو (3 قطع)</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">6€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Ceci, cipolla, piccante e sommacco.</p>
+          <p class="dish-desc" data-lang="en">Chickpea, onion, spicy, with sumac.</p>
+          <p class="dish-desc" data-lang="ar">حمص، بصل، حار وسماق.</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Piatto di Riso</span><span class="dish-name" data-lang="en">Rice</span><span class="dish-name" data-lang="ar">طبق أرز</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">4€</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PIATTI PRINCIPALI -->
+    <section class="menu-category" id="principali">
+      <div class="menu-category-head">
+        <span class="eyebrow">04</span>
+        <h2 data-lang="it">Piatti Principali</h2><h2 data-lang="en">Main Courses</h2><h2 data-lang="ar">الأطباق الرئيسية</h2>
+      </div>
+      <p class="menu-category-note" data-lang="it">Tutte le grigliate sono accompagnate da riso.</p>
+      <p class="menu-category-note" data-lang="en">All grilled dishes are served with rice.</p>
+      <p class="menu-category-note" data-lang="ar">جميع أطباق الشواء تُقدَّم مع الأرز.</p>
+      <div class="dish-list">
+
+        <div class="dish">
+          <div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Shish Tawuk</span><span class="dish-name" data-lang="en">Shish Tawuk</span><span class="dish-name" data-lang="ar">شيش طاووق</span></span><span class="dish-price">16€</span></div>
+          <p class="dish-desc" data-lang="it">Spiedini di pollo marinati con limone, yogurt e spezie.</p>
+          <p class="dish-desc" data-lang="en">Chicken skewers marinated in lemon, yogurt and spices.</p>
+          <p class="dish-desc" data-lang="ar">أسياخ دجاج متبلة بالليمون واللبن والتوابل.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: latte (yogurt)</p><p class="dish-allergen" data-lang="en">Allergens: dairy (yogurt)</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: حليب (لبن)</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Shish Carne</span><span class="dish-name" data-lang="en">Shish Meat</span><span class="dish-name" data-lang="ar">شيش لحم</span></span><span class="dish-price">18€</span></div>
+          <p class="dish-desc" data-lang="it">Spiedini di carne marinata con spezie.</p>
+          <p class="dish-desc" data-lang="en">Marinated meat skewers with spices.</p>
+          <p class="dish-desc" data-lang="ar">أسياخ لحم متبل بالتوابل.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: possibile traccia di glutine</p><p class="dish-allergen" data-lang="en">Allergens: possible gluten trace</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: احتمال أثر غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Costine di Agnello</span><span class="dish-name" data-lang="en">Lamb Ribs</span><span class="dish-name" data-lang="ar">ضلوع خروف</span></span><span class="dish-price">22€</span></div>
+          <p class="dish-desc" data-lang="it">Costine di agnello marinate.</p>
+          <p class="dish-desc" data-lang="en">Marinated lamb ribs.</p>
+          <p class="dish-desc" data-lang="ar">ضلوع خروف متبلة.</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Tikkah di Agnello</span><span class="dish-name" data-lang="en">Lamb Tikkah</span><span class="dish-name" data-lang="ar">تكة خروف</span></span><span class="dish-price">20€</span></div>
+          <p class="dish-desc" data-lang="it">Bocconcini di agnello marinati in spezie e limone.</p>
+          <p class="dish-desc" data-lang="en">Lamb chunks marinated in spices and lemon.</p>
+          <p class="dish-desc" data-lang="ar">قطع خروف متبلة بالتوابل والليمون.</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Grigliata Mista <span style="font-size:12px;color:#8a8272;">(per due persone)</span></span><span class="dish-name" data-lang="en">Mixed Grill <span style="font-size:12px;color:#8a8272;">(for two)</span></span><span class="dish-name" data-lang="ar">مشاوي مشكلة <span style="font-size:12px;color:#8a8272;">(لشخصين)</span></span></span><span class="dish-price">50€</span></div>
+          <p class="dish-desc" data-lang="it">Pollo, carne e agnello marinati, accompagnato da hummus, mutabbal, riso e brodo.</p>
+          <p class="dish-desc" data-lang="en">Marinated chicken, beef and lamb, served with hummus, mutabbal, rice and broth.</p>
+          <p class="dish-desc" data-lang="ar">دجاج ولحم وخروف متبل، يُقدَّم مع حمص ومتبل وأرز ومرق.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: latte (yogurt), sesamo</p><p class="dish-allergen" data-lang="en">Allergens: dairy (yogurt), sesame</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: حليب (لبن)، سمسم</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Saj Shawerma</span><span class="dish-name" data-lang="en">Saj Shawerma</span><span class="dish-name" data-lang="ar">شاورما على الصاج</span></span><span class="dish-price">14€</span></div>
+          <p class="dish-desc" data-lang="it">Carne di pollo marinata, servita su saj.</p>
+          <p class="dish-desc" data-lang="en">Marinated chicken, served on saj bread.</p>
+          <p class="dish-desc" data-lang="ar">دجاج متبل، يُقدَّم على الصاج.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Saj Carne</span><span class="dish-name" data-lang="en">Saj Meat</span><span class="dish-name" data-lang="ar">صاج لحم</span></span><span class="dish-price">15€</span></div>
+          <p class="dish-desc" data-lang="it">Carne marinata con spezie, servita su saj.</p>
+          <p class="dish-desc" data-lang="en">Meat marinated with spices, served on saj bread.</p>
+          <p class="dish-desc" data-lang="ar">لحم متبل بالتوابل، يُقدَّم على الصاج.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Saj Falafel</span><span class="dish-name" data-lang="en">Saj Falafel</span><span class="dish-name" data-lang="ar">صاج فلافل</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg>
+            </span>
+            <span class="dish-price">11€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Falafel accompagnato da hummus, mutabbal, tahina e insalata.</p>
+          <p class="dish-desc" data-lang="en">Falafel served with hummus, mutabbal, tahini and salad.</p>
+          <p class="dish-desc" data-lang="ar">فلافل يُقدَّم مع حمص ومتبل وطحينة وسلطة.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: sesamo, glutine</p><p class="dish-allergen" data-lang="en">Allergens: sesame, gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: سمسم، غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Quzi Iraqeno</span><span class="dish-name" data-lang="en">Quzi Iraqeno</span><span class="dish-name" data-lang="ar">قوزي عراقي</span></span><span class="dish-price">28€</span></div>
+          <p class="dish-desc" data-lang="it">Stinco di agnello arrosto, accompagnato da brodo e riso, piatto iracheno.</p>
+          <p class="dish-desc" data-lang="en">Roasted lamb shank, served with broth and rice, an Iraqi dish.</p>
+          <p class="dish-desc" data-lang="ar">ساق خروف مشوي، يُقدَّم مع مرق وأرز، طبق عراقي.</p>
+        </div>
+
+      </div>
+      <div class="saj-note">
+        <span data-lang="it"><b>Saj:</b> una piadina preparata su piastra calda, fragrante, che accompagna il piatto.</span>
+        <span data-lang="en"><b>Saj:</b> a fragrant flatbread cooked on a hot griddle, served alongside the dish.</span>
+        <span data-lang="ar"><b>الصاج:</b> خبز رقيق يُحضَّر على صاج ساخن، عطري، يُقدَّم مع الطبق.</span>
+      </div>
+    </section>
+
+    <!-- DOLCI -->
+    <section class="menu-category" id="dolci">
+      <div class="menu-category-head">
+        <span class="eyebrow">05</span>
+        <h2 data-lang="it">Dolci</h2><h2 data-lang="en">Desserts</h2><h2 data-lang="ar">حلويات</h2>
+      </div>
+      <div class="dish-list">
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Baklawa</span><span class="dish-name" data-lang="en">Baklawa</span><span class="dish-name" data-lang="ar">بقلاوة</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Sfoglia ripiena di pistacchio, imbevuta di sciroppo.</p>
+          <p class="dish-desc" data-lang="en">Layered pastry filled with pistachio, soaked in syrup.</p>
+          <p class="dish-desc" data-lang="ar">عجين رقيق محشو بالفستق ومغموس بالقطر.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine, frutta a guscio, latticini (burro)</p><p class="dish-allergen" data-lang="en">Allergens: gluten, tree nuts, dairy (butter)</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين، مكسرات، ألبان (زبدة)</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Basbusah</span><span class="dish-name" data-lang="en">Basbusah</span><span class="dish-name" data-lang="ar">بسبوسة</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">4€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Torta di semolino dolce con cocco, yogurt, latte, burro e sciroppo.</p>
+          <p class="dish-desc" data-lang="en">Sweet semolina cake with coconut, yogurt, milk, butter and syrup.</p>
+          <p class="dish-desc" data-lang="ar">كعكة سميد حلوة بجوز الهند واللبن والحليب والزبدة والقطر.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine, latticini (burro)</p><p class="dish-allergen" data-lang="en">Allergens: gluten, dairy (butter)</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين، ألبان (زبدة)</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Mahallabia</span><span class="dish-name" data-lang="en">Mahallabia</span><span class="dish-name" data-lang="ar">مهلبية</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">4€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Crema al latte aromatizzata all'acqua di rosa e amido di mais.</p>
+          <p class="dish-desc" data-lang="en">Milk cream flavored with rosewater and cornstarch.</p>
+          <p class="dish-desc" data-lang="ar">كريمة حليب بنكهة ماء الورد ونشا الذرة.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: latte</p><p class="dish-allergen" data-lang="en">Allergens: dairy</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: حليب</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Helba</span><span class="dish-name" data-lang="en">Helba</span><span class="dish-name" data-lang="ar">حلبة</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">4€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Dolce di semolino con sesamo, zucchero, aromi, cumino nero e sciroppo.</p>
+          <p class="dish-desc" data-lang="en">Semolina sweet with sesame, sugar, spices, black cumin and syrup.</p>
+          <p class="dish-desc" data-lang="ar">حلوى سميد بالسمسم والسكر والنكهات والحبة السوداء والقطر.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: glutine</p><p class="dish-allergen" data-lang="en">Allergens: gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: غلوتين</p>
+        </div>
+
+        <div class="dish">
+          <div class="dish-row">
+            <span class="dish-name-wrap"><span class="dish-name" data-lang="it">Ma'mul</span><span class="dish-name" data-lang="en">Ma'mul</span><span class="dish-name" data-lang="ar">معمول</span>
+              <svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg>
+            </span>
+            <span class="dish-price">5€</span>
+          </div>
+          <p class="dish-desc" data-lang="it">Biscotti fatti con semolino, acqua di rose e burro, ripieni di datteri.</p>
+          <p class="dish-desc" data-lang="en">Semolina cookies with rosewater and butter, filled with dates.</p>
+          <p class="dish-desc" data-lang="ar">بسكويت سميد بماء الورد والزبدة، محشو بالتمر.</p>
+          <p class="dish-allergen" data-lang="it">Allergeni: frutta a guscio, glutine</p><p class="dish-allergen" data-lang="en">Allergens: tree nuts, gluten</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: مكسرات، غلوتين</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BIBITE -->
+    <section class="menu-category" id="bibite">
+      <div class="menu-category-head">
+        <span class="eyebrow">06</span>
+        <h2 data-lang="it">Bibite</h2><h2 data-lang="en">Drinks</h2><h2 data-lang="ar">مشروبات</h2>
+      </div>
+      <p class="menu-category-note" data-lang="it">Fredde</p><p class="menu-category-note" data-lang="en">Cold</p><p class="menu-category-note" data-lang="ar">باردة</p>
+      <div class="dish-list">
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Acqua Naturale 75cl</span><span class="dish-name" data-lang="en">Still Water 75cl</span><span class="dish-name" data-lang="ar">مياه طبيعية 75 سل</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">3€</span></div></div>
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Ayran</span><span class="dish-name" data-lang="en">Ayran</span><span class="dish-name" data-lang="ar">عيران</span><svg class="badge-v" viewBox="0 0 24 24" fill="none" stroke="#4c6e4a" stroke-width="1.6"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/><path d="M4 20c3-3 7-6 10-11" stroke-linecap="round"/></svg></span><span class="dish-price">3,5€</span></div><p class="dish-allergen" data-lang="it">Allergeni: latte</p><p class="dish-allergen" data-lang="en">Allergens: dairy</p><p class="dish-allergen" data-lang="ar">مسببات الحساسية: حليب</p></div>
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Bibite Gassate</span><span class="dish-name" data-lang="en">Soft Drinks</span><span class="dish-name" data-lang="ar">مشروبات غازية</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">3€</span></div></div>
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Limonata alla Menta</span><span class="dish-name" data-lang="en">Mint Lemonade</span><span class="dish-name" data-lang="ar">ليموناضة بالنعناع</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">3,5€</span></div></div>
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Succo di Melograno</span><span class="dish-name" data-lang="en">Pomegranate Juice</span><span class="dish-name" data-lang="ar">عصير رمان</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">4€</span></div></div>
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Karkadè Freddo</span><span class="dish-name" data-lang="en">Iced Karkadè (Hibiscus)</span><span class="dish-name" data-lang="ar">كركديه بارد</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">3,5€</span></div></div>
+      </div>
+      <p class="menu-category-note" style="margin-top:50px;" data-lang="it">Calde</p><p class="menu-category-note" style="margin-top:50px;" data-lang="en">Hot</p><p class="menu-category-note" style="margin-top:50px;" data-lang="ar">ساخنة</p>
+      <div class="dish-list">
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Caffè Espresso</span><span class="dish-name" data-lang="en">Espresso</span><span class="dish-name" data-lang="ar">إسبريسو</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">1,5€</span></div></div>
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Caffè Arabo</span><span class="dish-name" data-lang="en">Arabic Coffee</span><span class="dish-name" data-lang="ar">قهوة عربية</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">2,5€</span></div></div>
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Tè Nero / Verde</span><span class="dish-name" data-lang="en">Black / Green Tea</span><span class="dish-name" data-lang="ar">شاي أسود / أخضر</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">2,5€</span></div></div>
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Tè alla Salvia</span><span class="dish-name" data-lang="en">Sage Tea</span><span class="dish-name" data-lang="ar">شاي بالمريمية</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">3€</span></div></div>
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Tè allo Zenzero e Limone</span><span class="dish-name" data-lang="en">Ginger &amp; Lemon Tea</span><span class="dish-name" data-lang="ar">شاي بالزنجبيل والليمون</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">3€</span></div></div>
+        <div class="dish"><div class="dish-row"><span class="dish-name-wrap"><span class="dish-name" data-lang="it">Karkadè Caldo</span><span class="dish-name" data-lang="en">Hot Karkadè (Hibiscus)</span><span class="dish-name" data-lang="ar">كركديه ساخن</span><svg class="badge-v" viewBox="0 0 24 24" fill="#4c6e4a"><path d="M4 20c0-7 4-14 15-15-1 10-7 14-15 15z"/></svg></span><span class="dish-price">3€</span></div></div>
+      </div>
+    </section>
+
+    <p class="coperto-note" data-lang="it">Coperto: 2€ a persona</p>
+    <p class="coperto-note" data-lang="en">Cover charge: €2 per person</p>
+    <p class="coperto-note" data-lang="ar">رسم الخدمة: 2€ للشخص</p>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-mark">
+          <img src="images/logo-mark-light.png" alt="Ristorante Babylon">
+        </div>
+        <p class="footer-tag" data-lang="it">Cucina libanese, siriana, irachena, iraniana. Milano.</p>
+        <p class="footer-tag" data-lang="en">Lebanese, Syrian, Iraqi, Iranian cuisine. Milan.</p>
+        <p class="footer-tag" data-lang="ar">مطبخ لبناني، سوري، عراقي، إيراني. ميلانو.</p>
+        <div class="halal-badge" style="margin-top:22px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#e0b658" stroke-width="1.6"><circle cx="12" cy="12" r="9.5"/><path d="M8 12.5l2.6 2.6L16.5 9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span data-lang="it">100% Halal</span>
+          <span data-lang="en">100% Halal</span>
+          <span data-lang="ar">حلال ١٠٠٪</span>
+        </div>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4 data-lang="it">Naviga</h4><h4 data-lang="en">Explore</h4><h4 data-lang="ar">استكشف</h4>
+          <ul>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="index.html#story" data-lang="it">La Storia</a><a href="index.html#story" data-lang="en">Our Story</a><a href="index.html#story" data-lang="ar">قصتنا</a></li>
+            <li><a href="index.html#location" data-lang="it">Dove Siamo</a><a href="index.html#location" data-lang="en">Location</a><a href="index.html#location" data-lang="ar">موقعنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-lang="it">Contatti</h4><h4 data-lang="en">Contact</h4><h4 data-lang="ar">تواصل</h4>
+          <ul>
+            <li><a href="tel:+393932482141">+39 393 248 2141</a></li>
+            <li><a href="https://www.instagram.com/ristorantebabylon" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://maps.google.com/?q=Via+Polesine+5,+Milano" target="_blank" rel="noopener">Via Polesine 5, Milano</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-lang="it">© 2026 Ristorante Babylon, Milano</span>
+      <span data-lang="en">© 2026 Ristorante Babylon, Milan</span>
+      <span data-lang="ar">© 2026 مطعم بابل، ميلانو</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
